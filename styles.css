@@ -144,6 +144,7 @@ img {
     .hero-textbox {
         width: auto;
         margin: 0 auto;
+        padding: 50px;
     }
     
     .hero-section: h1 h2 {
