@@ -1,0 +1,192 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Istok Web", sans-serif;
+}
+
+.hero-section { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-image: url("http://truecolorsmuralproject.files.wordpress.com/2009/11/vivir-sin-fronteras-colordsgfix.jpg?w=510");
+    background-size: cover;
+    background-position:center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #1D3557;
+    
+}
+
+.hero-section h1 {
+    text-transform:uppercase;
+    background-color: #1D3557;
+    padding: 10px;
+}
+
+.hero-section h2 {  
+    background-color:#457B9D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hero-textbox {
+    text-shadow: 0 0 1px black;
+    color:#F1FAEE;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+img {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.img-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.img-section h3 {
+    color: #1D3557;
+}
+
+.img-section p {
+    color: #457B9D;
+}
+
+.img-section:hover {
+    cursor: pointer;
+}
+
+.background-button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    opacity: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+#cerrito-theater {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Cerrito_Theater_San_Pablo_Avenue_%28cropped%29.jpg/250px-Cerrito_Theater_San_Pablo_Avenue_%28cropped%29.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    margin: 0 auto;
+ 
+}
+
+#cerrito-shops {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Shops_in_El_Cerrito_%282666038259%29.jpg/800px-Shops_in_El_Cerrito_%282666038259%29.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    margin: 0 auto;
+  
+}
+#cerrito-worldone {
+    background-image: url("https://www.el-cerrito.org/ImageRepository/Document?documentID=11144");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    margin: 0 auto;
+
+}
+
+.act-section {
+    padding: 40px;
+    background-color: #F1FAEE;
+}
+
+.act-section h3 {
+    padding-bottom: 20px;
+}
+
+.guide-section {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    border-bottom: 5px solid #457B9D;
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#A8DADC;
+    gap: 20px;
+}
+
+.guide-section img {
+    width: 150px;
+}
+
+
+@media (max-width: 400px) {
+    
+
+    .hero-textbox {
+        width: auto;
+        margin: 0 auto;
+    }
+    
+    .hero-section: h1 h2 {
+        padding: auto;
+    }
+     
+  .img-section {
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  #cerrito-theater {
+    flex-basis: 1; 
+    width: 200px;
+  }
+   #cerrito-shops {
+    flex-basis: 1; 
+    width: 200px; 
+  }
+   #cerrito-worldone {
+    flex-basis: 1; 
+    width: 200px; 
+  }
+  
+  .hero-section {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .hero-section h2 {
+    width: 100%;
+    margin: 0 auto;   
+}
+
+.guide-section {
+    flex-direction: column;
+    margin: 0 auto;
+    width: auto;
+    row-gap: 5px;
+    border: none;
+    border-radius: 0%;
+}
+
+
+  
+}
